@@ -1,0 +1,14 @@
+﻿<AML>
+ <Item type="Method" id="994B5634AF424708AFC49FD214511113" action="add">
+  <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+  <method_code><![CDATA[// There are cases when the standard search filter is insufficient to perform a query.
+// For example, there is an issue when trying to use an OR operator ('|') in a search filter.
+// In this case, it is possible to pass in the raw AML of the query we want to perform
+var criteriaAml = "<Item type='Identity' action='get' page='1' select='classification,description,is_alias,name,created_by_id,created_on,modified_by_id,modified_on,locked_by_id,major_rev,css,current_state,keyed_name' pagesize='25' maxRecords='' returnMode='itemsOnly'><OR><name condition='like'>%Admin</name><name condition='like'>Super User</name></OR><is_alias condition='eq'>1</is_alias></Item>";
+
+inArgs.QryItem.loadXML(criteriaAml);
+return;]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>AML Search Filter</name>
+ </Item>
+</AML>

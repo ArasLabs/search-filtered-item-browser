@@ -1,0 +1,31 @@
+﻿<AML>
+ <Item type="Method" id="0D202690E16C4F9FB1562F70479DC884" action="add">
+  <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+  <method_code><![CDATA[// There are cases when the standard search filter is insufficient to perform a query.
+// For example, there is an issue when trying to use an OR operator ('|') in a search filter.
+// In this case, it is possible to first apply the query within this event and then filter
+// the results by the IDs of the items that match our criteria
+var inn = this.getInnovator();
+var ident = inn.newItem("Identity", "get");
+var or = ident.newOR();
+var and1 = or.newAND();
+and1.setProperty("name", "%Admin");
+and1.setPropertyAttribute("name", "condition", "like");
+and1.setProperty("is_alias", "1");
+var and2 = or.newAND();
+and2.setProperty("name", "Super User");
+and2.setProperty("is_alias", "1");
+ident = ident.apply();
+
+var idArray = [];
+for (var i = 0; i < ident.getItemCount(); i++)
+{
+    idArray.push(ident.getItemByIndex(i).getID());
+}
+
+inArgs.QryItem.item.setAttribute("idlist", idArray.join(","));
+return;]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>Idlist Search Filter</name>
+ </Item>
+</AML>
