@@ -1,8 +1,8 @@
 # Searchable Filtered Item Browser
 
-It is possible to add filters to a search dialog for an Item property to limit the results available for users to select from. This project contains both a document originally written for 9.2.0 SP3 as well as sample code that was written for 11.0 SP12.
+It is possible to add filters for an Item property to a search dialog in order to limit the results available for users to select from. This project contains both the documents, the originally written document for 9.2.0 SP3 as well as sample code that was written for 11.0 SP12.
 
-The method code included in the example imports demonstrates how to perform a search to retrieve all of the Admin Identities that have a corresponding user.
+The method code included in the below example imports demonstrate how to perform a search to retrieve all of the Admin Identities, that have a corresponding user.
 
 ## History
 
