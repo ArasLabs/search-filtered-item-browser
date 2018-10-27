@@ -1,8 +1,8 @@
 # Searchable Filtered Item Browser
 
-It is possible to add filters to a search dialog for an Item property to limit the results available for users to select from. This project contains both a document originally written for 9.2.0 SP3 as well as sample code that was written for 11.0 SP12.
+It is possible to add filters to a search dialog for an Item property, to limit the results available for users to select from. This project contains both a document originally written for 9.2.0 SP3 as well as sample code that was written for 11.0 SP12.
 
-The method code included in the example imports demonstrates how to perform a search to retrieve all of the Admin Identities that have a corresponding user.
+The method code included in the example imports demonstrate how to perform a search to retrieve all of the Admin Identities that have a corresponding user.
 
 ## History
 
@@ -46,14 +46,14 @@ Project | Aras
 8. Click **Import** in the top left corner.
 9. Close the Aras Package Import tool.
 
-You are now ready to try out the Search Filter example
+You are now ready to try out the Search Filter example.
 
 ### Usage
 1. Login as admin
 2. Navigate to the new Search Filter Example ItemType in the TOC
 3. Create a new Search Filter Example
 4. There are 3 different Item Properties here that show three different ways to Filter a SearchDialog
-5. For more details you can check the methods Events tab on the corresponding Property items
+5. For more details, you can check the methods Events tab on the corresponding Property items
 
 ## Contributing
 
@@ -67,7 +67,7 @@ You are now ready to try out the Search Filter example
 
 Created by Aras Corporation Support.
 
-Updated by Christopher Gillis for Aras Labs. @cgillis-aras
+Updated by Christopher Gillis for Aras Labs. [@cgillis-aras](https://github.com/cgillis-aras)
 
 ## License
 
