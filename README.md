@@ -67,7 +67,7 @@ You are now ready to try out the Search Filter example.
 
 Created by Aras Corporation Support.
 
-Updated by Christopher Gillis for Aras Labs. [@cgillis-aras](https://github.com/cgillis-aras)
+Updated by Christopher Gillis for Aras Labs. @cgillis-aras
 
 ## License
 
