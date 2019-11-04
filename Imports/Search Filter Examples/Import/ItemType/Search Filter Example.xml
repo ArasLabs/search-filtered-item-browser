@@ -18,6 +18,12 @@
   <use_src_access>0</use_src_access>
   <name>Search Filter Example</name>
   <Relationships>
+   <Item type="ITPresentationConfiguration" id="0B4F69D2F550E7F76B77D6069BFA2DFF" action="add">
+    <client>js</client>
+    <related_id keyed_name="Search Filter Example_TOC_Configuration" type="PresentationConfiguration">0B4F69D2F550E7F736326AA7318BB90D</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Search Filter Example" type="ItemType" name="Search Filter Example">AA39ECDD728B4DADAFCE76AF9B43B810</source_id>
+   </Item>
    <Item type="Property" id="39C63CF8FA1642B5A50FE8D1A1599C18" action="add">
     <column_alignment>left</column_alignment>
     <data_source keyed_name="Identity" type="ItemType" name="Identity">E582AB17663F4EF28460015B2BE9E094</data_source>
@@ -90,6 +96,7 @@
     <is_keyed>0</is_keyed>
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
     <label xml:lang="en">Standard Search Filter</label>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
@@ -135,7 +142,7 @@
     <source_id keyed_name="Search Filter Example" type="ItemType" name="Search Filter Example">AA39ECDD728B4DADAFCE76AF9B43B810</source_id>
    </Item>
    <Item type="Allowed Permission" id="3E1568563CD6431E93247F3392E012DC" action="add">
-    <is_default>0</is_default>
+    <is_default>1</is_default>
     <related_id keyed_name="Administrators" type="Permission">5BE54C871FB14F6EBC11596D1A010D26</related_id>
     <sort_order>128</sort_order>
     <source_id keyed_name="Search Filter Example" type="ItemType" name="Search Filter Example">AA39ECDD728B4DADAFCE76AF9B43B810</source_id>

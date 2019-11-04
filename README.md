@@ -12,6 +12,7 @@ Release | Notes
 --------|--------
 [v1](https://github.com/ArasLabs/search-filtered-item-browser/releases/tag/v1) | Initial Release
 [v2](https://github.com/ArasLabs/search-filtered-item-browser/releases/tag/v2) | Importable Examples
+[v3.0.0](https://github.com/ArasLabs/search-filtered-item-browser/releases/tag/v3.0.0) | Upgraded for 12.0
 
 #### Supported Aras Versions
 
@@ -19,6 +20,7 @@ Project | Aras
 --------|------
 [v1](https://github.com/ArasLabs/search-filtered-item-browser/releases/tag/v1) | 9.2.0 SP3
 [v2](https://github.com/ArasLabs/search-filtered-item-browser/releases/tag/v2) | 11.0 SP12
+[v3.0.0](https://github.com/ArasLabs/search-filtered-item-browser/releases/tag/v2) | 12.0 SP1
 
 ## Installation
 
@@ -67,7 +69,8 @@ You are now ready to try out the Search Filter example
 
 Created by Aras Corporation Support.
 
-Updated by Christopher Gillis for Aras Labs. @cgillis-aras
+Updated by Christopher Gillis for Aras Labs. @cgillis-aras and Kate Marsh @k0marsh
+
 
 ## License
 
